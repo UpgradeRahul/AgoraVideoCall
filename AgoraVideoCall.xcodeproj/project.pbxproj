@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0129F51526F254180053583E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129F51426F254180053583E /* AppDelegate.swift */; };
+		0129F51726F254180053583E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129F51626F254180053583E /* SceneDelegate.swift */; };
+		0129F51926F254180053583E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129F51826F254180053583E /* ViewController.swift */; };
+		0129F51C26F254180053583E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0129F51A26F254180053583E /* Main.storyboard */; };
+		0129F51E26F254190053583E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0129F51D26F254190053583E /* Assets.xcassets */; };
+		0129F52126F254190053583E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0129F51F26F254190053583E /* LaunchScreen.storyboard */; };
+		0129F52C26F254190053583E /* AgoraVideoCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129F52B26F254190053583E /* AgoraVideoCallTests.swift */; };
+		0129F53726F254190053583E /* AgoraVideoCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129F53626F254190053583E /* AgoraVideoCallUITests.swift */; };
+		0129F55226F256DB0053583E /* AgoraRtcKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0129F54826F256DB0053583E /* AgoraRtcKit.xcframework */; };
+		0129F55326F256DB0053583E /* Agorafdkaac.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0129F54926F256DB0053583E /* Agorafdkaac.xcframework */; };
+		0129F55426F256DB0053583E /* Agoraffmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0129F54A26F256DB0053583E /* Agoraffmpeg.xcframework */; };
+		0129F55526F256DB0053583E /* AgoraCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0129F54B26F256DB0053583E /* AgoraCore.xcframework */; };
+		0129F55626F256DB0053583E /* AgoraAIDenoiseExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0129F54C26F256DB0053583E /* AgoraAIDenoiseExtension.xcframework */; };
+		0129F55B26F256DB0053583E /* AgoraSoundTouch.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0129F55126F256DB0053583E /* AgoraSoundTouch.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0129F52826F254190053583E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0129F50926F254180053583E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0129F51026F254180053583E;
+			remoteInfo = AgoraVideoCall;
+		};
+		0129F53326F254190053583E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0129F50926F254180053583E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0129F51026F254180053583E;
+			remoteInfo = AgoraVideoCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0129F51126F254180053583E /* AgoraVideoCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraVideoCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0129F51426F254180053583E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0129F51626F254180053583E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0129F51826F254180053583E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0129F51B26F254180053583E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0129F51D26F254190053583E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0129F52026F254190053583E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0129F52226F254190053583E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0129F52726F254190053583E /* AgoraVideoCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgoraVideoCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0129F52B26F254190053583E /* AgoraVideoCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraVideoCallTests.swift; sourceTree = "<group>"; };
+		0129F52D26F254190053583E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0129F53226F254190053583E /* AgoraVideoCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgoraVideoCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0129F53626F254190053583E /* AgoraVideoCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraVideoCallUITests.swift; sourceTree = "<group>"; };
+		0129F53826F254190053583E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0129F54826F256DB0053583E /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraRtcKit.xcframework; path = libs/AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		0129F54926F256DB0053583E /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Agorafdkaac.xcframework; path = libs/Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		0129F54A26F256DB0053583E /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Agoraffmpeg.xcframework; path = libs/Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		0129F54B26F256DB0053583E /* AgoraCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraCore.xcframework; path = libs/AgoraCore.xcframework; sourceTree = "<group>"; };
+		0129F54C26F256DB0053583E /* AgoraAIDenoiseExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraAIDenoiseExtension.xcframework; path = libs/AgoraAIDenoiseExtension.xcframework; sourceTree = "<group>"; };
+		0129F54D26F256DB0053583E /* AgoraDav1dExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraDav1dExtension.xcframework; path = libs/AgoraDav1dExtension.xcframework; sourceTree = "<group>"; };
+		0129F54E26F256DB0053583E /* AgoraJNDExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraJNDExtension.xcframework; path = libs/AgoraJNDExtension.xcframework; sourceTree = "<group>"; };
+		0129F54F26F256DB0053583E /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraVideoSegmentationExtension.xcframework; path = libs/AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
+		0129F55026F256DB0053583E /* AgoraFDExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraFDExtension.xcframework; path = libs/AgoraFDExtension.xcframework; sourceTree = "<group>"; };
+		0129F55126F256DB0053583E /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraSoundTouch.xcframework; path = libs/AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0129F50E26F254180053583E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0129F55226F256DB0053583E /* AgoraRtcKit.xcframework in Frameworks */,
+				0129F55326F256DB0053583E /* Agorafdkaac.xcframework in Frameworks */,
+				0129F55426F256DB0053583E /* Agoraffmpeg.xcframework in Frameworks */,
+				0129F55526F256DB0053583E /* AgoraCore.xcframework in Frameworks */,
+				0129F55626F256DB0053583E /* AgoraAIDenoiseExtension.xcframework in Frameworks */,
+				0129F55B26F256DB0053583E /* AgoraSoundTouch.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0129F52426F254190053583E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0129F52F26F254190053583E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0129F50826F254180053583E = {
+			isa = PBXGroup;
+			children = (
+				0129F51326F254180053583E /* AgoraVideoCall */,
+				0129F52A26F254190053583E /* AgoraVideoCallTests */,
+				0129F53526F254190053583E /* AgoraVideoCallUITests */,
+				0129F51226F254180053583E /* Products */,
+				0129F54726F256DA0053583E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0129F51226F254180053583E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0129F51126F254180053583E /* AgoraVideoCall.app */,
+				0129F52726F254190053583E /* AgoraVideoCallTests.xctest */,
+				0129F53226F254190053583E /* AgoraVideoCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0129F51326F254180053583E /* AgoraVideoCall */ = {
+			isa = PBXGroup;
+			children = (
+				0129F51426F254180053583E /* AppDelegate.swift */,
+				0129F51626F254180053583E /* SceneDelegate.swift */,
+				0129F51826F254180053583E /* ViewController.swift */,
+				0129F51A26F254180053583E /* Main.storyboard */,
+				0129F51D26F254190053583E /* Assets.xcassets */,
+				0129F51F26F254190053583E /* LaunchScreen.storyboard */,
+				0129F52226F254190053583E /* Info.plist */,
+			);
+			path = AgoraVideoCall;
+			sourceTree = "<group>";
+		};
+		0129F52A26F254190053583E /* AgoraVideoCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				0129F52B26F254190053583E /* AgoraVideoCallTests.swift */,
+				0129F52D26F254190053583E /* Info.plist */,
+			);
+			path = AgoraVideoCallTests;
+			sourceTree = "<group>";
+		};
+		0129F53526F254190053583E /* AgoraVideoCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0129F53626F254190053583E /* AgoraVideoCallUITests.swift */,
+				0129F53826F254190053583E /* Info.plist */,
+			);
+			path = AgoraVideoCallUITests;
+			sourceTree = "<group>";
+		};
+		0129F54726F256DA0053583E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0129F54C26F256DB0053583E /* AgoraAIDenoiseExtension.xcframework */,
+				0129F54B26F256DB0053583E /* AgoraCore.xcframework */,
+				0129F54D26F256DB0053583E /* AgoraDav1dExtension.xcframework */,
+				0129F55026F256DB0053583E /* AgoraFDExtension.xcframework */,
+				0129F54926F256DB0053583E /* Agorafdkaac.xcframework */,
+				0129F54A26F256DB0053583E /* Agoraffmpeg.xcframework */,
+				0129F54E26F256DB0053583E /* AgoraJNDExtension.xcframework */,
+				0129F54826F256DB0053583E /* AgoraRtcKit.xcframework */,
+				0129F55126F256DB0053583E /* AgoraSoundTouch.xcframework */,
+				0129F54F26F256DB0053583E /* AgoraVideoSegmentationExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0129F51026F254180053583E /* AgoraVideoCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0129F53B26F254190053583E /* Build configuration list for PBXNativeTarget "AgoraVideoCall" */;
+			buildPhases = (
+				0129F50D26F254180053583E /* Sources */,
+				0129F50E26F254180053583E /* Frameworks */,
+				0129F50F26F254180053583E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgoraVideoCall;
+			productName = AgoraVideoCall;
+			productReference = 0129F51126F254180053583E /* AgoraVideoCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0129F52626F254190053583E /* AgoraVideoCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0129F53E26F254190053583E /* Build configuration list for PBXNativeTarget "AgoraVideoCallTests" */;
+			buildPhases = (
+				0129F52326F254190053583E /* Sources */,
+				0129F52426F254190053583E /* Frameworks */,
+				0129F52526F254190053583E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0129F52926F254190053583E /* PBXTargetDependency */,
+			);
+			name = AgoraVideoCallTests;
+			productName = AgoraVideoCallTests;
+			productReference = 0129F52726F254190053583E /* AgoraVideoCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0129F53126F254190053583E /* AgoraVideoCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0129F54126F254190053583E /* Build configuration list for PBXNativeTarget "AgoraVideoCallUITests" */;
+			buildPhases = (
+				0129F52E26F254190053583E /* Sources */,
+				0129F52F26F254190053583E /* Frameworks */,
+				0129F53026F254190053583E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0129F53426F254190053583E /* PBXTargetDependency */,
+			);
+			name = AgoraVideoCallUITests;
+			productName = AgoraVideoCallUITests;
+			productReference = 0129F53226F254190053583E /* AgoraVideoCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0129F50926F254180053583E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0129F51026F254180053583E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0129F52626F254190053583E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0129F51026F254180053583E;
+					};
+					0129F53126F254190053583E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0129F51026F254180053583E;
+					};
+				};
+			};
+			buildConfigurationList = 0129F50C26F254180053583E /* Build configuration list for PBXProject "AgoraVideoCall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0129F50826F254180053583E;
+			productRefGroup = 0129F51226F254180053583E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0129F51026F254180053583E /* AgoraVideoCall */,
+				0129F52626F254190053583E /* AgoraVideoCallTests */,
+				0129F53126F254190053583E /* AgoraVideoCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0129F50F26F254180053583E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0129F52126F254190053583E /* LaunchScreen.storyboard in Resources */,
+				0129F51E26F254190053583E /* Assets.xcassets in Resources */,
+				0129F51C26F254180053583E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0129F52526F254190053583E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0129F53026F254190053583E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0129F50D26F254180053583E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0129F51926F254180053583E /* ViewController.swift in Sources */,
+				0129F51526F254180053583E /* AppDelegate.swift in Sources */,
+				0129F51726F254180053583E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0129F52326F254190053583E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0129F52C26F254190053583E /* AgoraVideoCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0129F52E26F254190053583E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0129F53726F254190053583E /* AgoraVideoCallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0129F52926F254190053583E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0129F51026F254180053583E /* AgoraVideoCall */;
+			targetProxy = 0129F52826F254190053583E /* PBXContainerItemProxy */;
+		};
+		0129F53426F254190053583E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0129F51026F254180053583E /* AgoraVideoCall */;
+			targetProxy = 0129F53326F254190053583E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0129F51A26F254180053583E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0129F51B26F254180053583E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0129F51F26F254190053583E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0129F52026F254190053583E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0129F53926F254190053583E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0129F53A26F254190053583E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0129F53C26F254190053583E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ERQY3VEA9;
+				INFOPLIST_FILE = AgoraVideoCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.AgoraVideoCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0129F53D26F254190053583E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ERQY3VEA9;
+				INFOPLIST_FILE = AgoraVideoCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.AgoraVideoCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0129F53F26F254190053583E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ERQY3VEA9;
+				INFOPLIST_FILE = AgoraVideoCallTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.AgoraVideoCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgoraVideoCall.app/AgoraVideoCall";
+			};
+			name = Debug;
+		};
+		0129F54026F254190053583E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ERQY3VEA9;
+				INFOPLIST_FILE = AgoraVideoCallTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.AgoraVideoCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgoraVideoCall.app/AgoraVideoCall";
+			};
+			name = Release;
+		};
+		0129F54226F254190053583E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ERQY3VEA9;
+				INFOPLIST_FILE = AgoraVideoCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.AgoraVideoCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgoraVideoCall;
+			};
+			name = Debug;
+		};
+		0129F54326F254190053583E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ERQY3VEA9;
+				INFOPLIST_FILE = AgoraVideoCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.AgoraVideoCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgoraVideoCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0129F50C26F254180053583E /* Build configuration list for PBXProject "AgoraVideoCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0129F53926F254190053583E /* Debug */,
+				0129F53A26F254190053583E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0129F53B26F254190053583E /* Build configuration list for PBXNativeTarget "AgoraVideoCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0129F53C26F254190053583E /* Debug */,
+				0129F53D26F254190053583E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0129F53E26F254190053583E /* Build configuration list for PBXNativeTarget "AgoraVideoCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0129F53F26F254190053583E /* Debug */,
+				0129F54026F254190053583E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0129F54126F254190053583E /* Build configuration list for PBXNativeTarget "AgoraVideoCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0129F54226F254190053583E /* Debug */,
+				0129F54326F254190053583E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0129F50926F254180053583E /* Project object */;
+}
